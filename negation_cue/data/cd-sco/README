@@ -1,0 +1,6 @@
+We train and evaluate the model with CD-SCO corpus, which can be downloaded from *SEM 2012 Shared Task website.
+We refer the readers to the *SEM 2012 Shared Task portal to know deatail about data and evaluation procedure. 
+Link: https://www.clips.uantwerpen.be/sem2012-st-neg/
+For convenience, we made below changes:
+	- Merge training and dev files to make a single file(e.g. training_dev.txt)
+	- Merge two test files into a single test file (e.g. single_gold.txt)

@@ -1,0 +1,25 @@
+{
+  "num_epoch": 50,
+  "seed":100,
+  "cell_units": 200,
+  "drpout": 0.3,
+  "rec_drpout": 0.3,
+  "validation_split": 0.15,
+  "max_len": 80,
+  "batch_size": 32,
+  "embed_size": 300,
+  "patience": 20,
+  "model_type": "BiLSTM_CRF",   
+  "model_path": "./negation_cue/model/current_model.h5",
+  "final_model_path": "./negation_cue/model/best_model.h5",
+  "vocab_loc": "./negation_cue/model/vocabs/vocabs.pkl",
+  "embed_file": "./negation_cue/embeddings/globe/glove.6B.300d.txt",
+  "training_file": "./negation_cue/data/cd-sco/corpus/training_dev/training_dev.txt",
+  "cd-sco_test_file": "./negation_cue/data/cd-sco/corpus/test-gold/single_gold.txt",
+  "cd-sco_prediction_file": "./negation_cue/data/cd-sco-prediction/predicted_file.txt",
+  "features_dict": {
+    "words":1, 
+	"upos":1
+  }, 
+  "vrbose": 1
+}
