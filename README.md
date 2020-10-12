@@ -44,7 +44,7 @@ At this step, we run the cue detector to get two samples: sentences with negatio
 python extract_negation.py
 ```
 Output files will be created in below locations. "map_scores" directory contains with and without negation files. Whereas, "info" directory contains token-level cue information.  
-WMT-18: ./output/map_scores/2018/  (e.g.,fien_uedin.5631_ref_neg.txt (with neg file), fien_uedin.5631_ref_noneg.txt (without neg file))
+WMT-18: ./output/map_scores/2018/  (e.g.,fien_uedin.5631_ref_neg.txt (with neg file), fien_uedin.5631_ref_noneg.txt (without neg file))  
 WMT-19: ./output/map_scores/2019/  
 WMT-18: ./output/info/2018/  
 WMT-19: ./output/info/2019/  
