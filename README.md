@@ -1,6 +1,6 @@
 Negation as a Source of Error in Machine Translation
 ===================================================================
-This repository contains code of the EMNLP2020 (Findings) paper "It's not a Non-Issue: Negation as a Source of Error in Machine Translation".  
+This repository contains code of the EMNLP2020 (Findings) paper "It's not a Non-Issue: Negation as a Source of Error in Machine Translation". The arxiv version can be downloaded from here: https://arxiv.org/abs/2010.05432 .  
 Authors: Md Mosharaf Hossain, Antonios Anastasopoulos, Eduardo Blanco and Alexis Palmer  
 
 
