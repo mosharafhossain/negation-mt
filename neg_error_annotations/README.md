@@ -4,7 +4,7 @@ June 1, 2020
 
 These data files support the analyses described in 
 "It's not a non-issue: Negation as an error source for machine translation"
-submitted to EMNLP 2020.
+accepted to EMNLP 2020.
 
 Specifically, these are the files discussed in section 5 of the paper.
 
