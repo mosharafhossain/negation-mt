@@ -1,6 +1,6 @@
 Negation as a Source of Error in Machine Translation
 ===================================================================
-This repository contains code of the EMNLP2020 (Findings) paper "It's not a Non-Issue: Negation as a Source of Error in Machine Translation". The arxiv version can be downloaded from here: https://arxiv.org/abs/2010.05432 .  
+This repository contains code of the EMNLP2020 (Findings) paper "It's not a Non-Issue: Negation as a Source of Error in Machine Translation". Download the paper from ACL anthology: https://www.aclweb.org/anthology/2020.findings-emnlp.345.pdf. The arxiv version is also available: https://arxiv.org/abs/2010.05432.  
 Authors: Md Mosharaf Hossain, Antonios Anastasopoulos, Eduardo Blanco and Alexis Palmer  
 
 
@@ -64,4 +64,22 @@ deferent negated sentences in each run (because of random initialization of the 
 python results.py --table_no 1
 ```
 
+## Reference
+```bibtex
+@inproceedings{hossain-etal-2020-non,
+    title = "It{'}s not a Non-Issue: Negation as a Source of Error in Machine Translation",
+    author = "Hossain, Md Mosharaf  and
+      Anastasopoulos, Antonios  and
+      Blanco, Eduardo  and
+      Palmer, Alexis",
+    booktitle = "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: Findings",
+    month = nov,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://www.aclweb.org/anthology/2020.findings-emnlp.345",
+    pages = "3869--3885",
+    abstract = "As machine translation (MT) systems progress at a rapid pace, questions of their adequacy linger. In this study we focus on negation, a universal, core property of human language that significantly affects the semantics of an utterance. We investigate whether translating negation is an issue for modern MT systems using 17 translation directions as test bed. Through thorough analysis, we find that indeed the presence of negation can significantly impact downstream quality, in some cases resulting in quality reductions of more than 60{\%}. We also provide a linguistically motivated analysis that directly explains the majority of our findings. We release our annotations and code to replicate our analysis here: https://github.com/mosharafhossain/negation-mt.",
+}
+```
 
